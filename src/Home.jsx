@@ -12,7 +12,7 @@ export default function Home() {
         <h4>We are the Team of Talented Developer Making Websites</h4>
          <Link className='btn btn-outline-primary started my-4' to="./services" >Get Started</Link></div>
       
-        <img className='img-fluid animated  image' src={web} width={"30%"} alt="" />
+        <img className='img-fluid animated  image2' src={web} width={"30%"} alt="" />
       </div></div>
     </div>
   )
