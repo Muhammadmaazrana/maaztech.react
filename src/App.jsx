@@ -4,7 +4,7 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
-import Services from "./Services.1";
+import Services from "./Services";
 import Navbar from './Navbar';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
