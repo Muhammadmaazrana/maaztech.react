@@ -3,7 +3,12 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import web from "../src/images/pic3.png"
+import web from "../src/images/pic9.jpg"
+import web1 from "../src/images/pic10.jpg"
+import web2 from "../src/images/pic11.jpg"
+import web3 from "../src/images/pic12.jpg"
+import web4 from "../src/images/pic13.jpg"
+import web5 from "../src/images/pic16.jpg"
 
 
 
@@ -33,7 +38,7 @@ export default function Services() {
           <Card sx={{ maxWidth: 300 }}>
             <CardMedia
               sx={{ height: 140 }}
-              image="../src/images/pic10.jpg"
+              image={web1}
               title="green iguana" />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
@@ -49,7 +54,7 @@ export default function Services() {
           <Card sx={{ maxWidth: 300 }}>
             <CardMedia
               sx={{ height: 140 }}
-              image="../src/images/pic11.jpg"
+              image={web2}
               title="green iguana" />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
@@ -62,11 +67,12 @@ export default function Services() {
             </CardContent><br />
 
           </Card></div>
-        <div className='main1'>
+
+        <div className='main2'>
           <Card sx={{ maxWidth: 300 }}>
             <CardMedia
               sx={{ height: 140 }}
-              image="../src/images/pic12.jpg"
+              image={web3}
               title="green iguana" />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
@@ -82,7 +88,7 @@ export default function Services() {
           <Card sx={{ maxWidth: 300 }}>
             <CardMedia
               sx={{ height: 140 }}
-              image="../src/images/pic13.jpg"
+              image={web4}
               title="green iguana" />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
@@ -98,7 +104,7 @@ export default function Services() {
           <Card sx={{ maxWidth: 300 }}>
             <CardMedia
               sx={{ height: 140 }}
-              image="../src/images/pic16.jpg"
+              image={web5}
               title="green iguana" />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">

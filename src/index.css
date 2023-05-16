@@ -69,6 +69,11 @@ margin: auto;
      flex-direction: column;
      margin: 20px;
   }
+  .main2 {
+     display: flex;
+     flex-direction: column;
+     margin: 20px;
+  }
 
   @-webkit-keyframes up-down{
     0%   { transform: translateY(40px);}
@@ -91,6 +96,12 @@ margin: auto;
 .main1{
   display: flex;
   justify-content: space-between;
+  
+}
+.main2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
   
 }
 .tech{
