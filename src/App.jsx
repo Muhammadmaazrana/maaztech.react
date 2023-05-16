@@ -4,14 +4,9 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
-import Services from './Services';
+import Services from "./Services.1";
 import Navbar from './Navbar';
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-  crossorigin="anonymous"
-/>
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 
