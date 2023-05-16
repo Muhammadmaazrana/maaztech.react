@@ -10,7 +10,7 @@ export default function Home() {
         <div className="my-3 ">
         <h2 className="heading">Grow Your Business with <strong className='brandname'>MaazTech</strong></h2>
         <h4>We are the Team of Talented Developer Making Websites</h4>
-         <Link className='btn btn-outline-primary started my-4' to="./services" >Get Started</Link></div>
+         <Link className='btn btn-outline-primary started my-4' exact to="./services" >Get Started</Link></div>
       
         <img className='img-fluid animated  image2' src={web} width={"30%"} alt="" />
       </div></div>

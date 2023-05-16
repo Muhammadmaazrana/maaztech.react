@@ -10,7 +10,7 @@ export default function About() {
         <div className="my-3 ">
         <h2 className="heading">Welcome to About page of <strong className='brandname'>MaazTech</strong></h2>
         <h4>We are the Team of Talented Developer Making Websites</h4>
-        <Link className='btn btn-outline-primary started my-4' to="./contact" >Contact Now</Link></div>
+        <Link className='btn btn-outline-primary started my-4' exact to="/contact" >Contact Now</Link></div>
       
         <img className='img-fluid animated  image' src={web} width={"30%"} alt="" />
       </div></div>
